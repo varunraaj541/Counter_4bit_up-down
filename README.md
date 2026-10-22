@@ -1,4 +1,4 @@
-# Counter_4bit_up-down
+[# Counter_4bit_up-down
 
 ## Aim:
 
@@ -174,3 +174,4 @@ It contains statements that map logical library names to their physical director
 
 The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
+](https://github.com/Navaneetha-sec/Counter_4bit_up-down.git)
