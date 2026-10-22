@@ -1,4 +1,4 @@
-[# Counter_4bit_up-down
+# Counter_4bit_up-down
 
 ## Aim:
 
@@ -42,6 +42,9 @@ Functional Simulation:
       
 	After this you can see the window like below 
 
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/65f69f69-f71d-4ee9-93d5-6dcb5d79d914" />
+
+
 
 ## Fig 2: Invoke the Cadence Environment
 
@@ -75,11 +78,17 @@ Functional Simulation:
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
+<img width="1916" height="1197" alt="image" src="https://github.com/user-attachments/assets/436705d8-c314-4a85-b503-9ed1cb94f836" />
+
+
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+
+<img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/ecedfaad-37a7-45f6-9b06-6e541c54eb70" />
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +97,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+<img width="1917" height="1196" alt="image" src="https://github.com/user-attachments/assets/7e75810a-bd30-4b4d-a304-1b3d04ec375b" />
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +110,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+<img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/63e94525-01aa-445d-b787-eeedb19738a0" />
+
 
 ## Fig 6: Nclaunch Window
 
@@ -122,6 +137,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+<img width="1915" height="1196" alt="image" src="https://github.com/user-attachments/assets/07792548-62c8-4747-9d74-881998aa3b35" />
+
 
 ## Fig 7: Compiled database in worklib
 
@@ -152,6 +170,9 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+<img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/4f315df5-b7e7-4819-9a91-f3235f5f0883" />
+
+
 ## Fig 8: Elaboration Launch Option
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -164,9 +185,16 @@ It contains statements that map logical library names to their physical director
 
 	Steps for simulation – Run the simulation command with simulator options
 
+<img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/9b35c939-0e5b-4ee2-b310-dcc6bb04c5e0" />
+
+
 ## Fig 9: Design Browser window for simulation
+<img width="1917" height="1191" alt="image" src="https://github.com/user-attachments/assets/5f9fc733-e0f0-4bb1-9b32-b183a2e7f448" />
+
 
 ## Fig 10: Simulation Waveform Window
+<img width="1917" height="1198" alt="image" src="https://github.com/user-attachments/assets/e7ad5991-ed8a-44a6-a112-ffed9933145d" />
+
 
 ## Fig 11: Simulation Waveform Window
 
@@ -174,4 +202,3 @@ It contains statements that map logical library names to their physical director
 
 The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
-](https://github.com/Navaneetha-sec/Counter_4bit_up-down.git)
